@@ -6,14 +6,14 @@ const Candidate = require('../models/candidate');
 
 
 const checkAdminRole = async (userID) => {
-   try{
+    try{
         const user = await User.findById(userID);
         if(user.role === 'admin'){
             return true;
         }
-   }catch(err){
+    }catch(err){
         return false;
-   }
+    }
 }
 
 // POST route to add a candidate

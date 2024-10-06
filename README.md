@@ -1,4 +1,4 @@
-# Voting Application
+# PulseVote:A Voting Application
 
 This is a backend application for a voting system where users can vote for candidates. It provides functionalities for user authentication, candidate management, and voting.
 
@@ -22,7 +22,7 @@ This is a backend application for a voting system where users can vote for candi
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Prince-1501/voting_app.git
+   git clone https://github.com/sanjeet43/PulseVote.git
 
 
 # API Endpoints
